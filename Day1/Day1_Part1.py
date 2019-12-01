@@ -6,5 +6,5 @@ if __name__ == "__main__":
     with open(sys.argv[1]) as lines:
         for line in lines:
             number = int(line)
-            total += math.floor((number / 3)) - 2
+            total += math.floor(number / 3) - 2
     print(total)
