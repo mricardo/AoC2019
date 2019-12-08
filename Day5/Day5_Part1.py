@@ -28,5 +28,3 @@ if __name__ == "__main__":
             break 
 
         i += 4 if instruction < 3 else 2
-            
-    
